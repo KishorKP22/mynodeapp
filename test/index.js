@@ -7,7 +7,11 @@ const app = express();
 
 app.get('/', (req, res) => {
 
-  res.send('Hello from Nodejs App');
+<<<<<<< HEAD
+  res.send('Welcome to our Nodejs App');
+=======
+  res.send('Welcome from Nodejs App');
+>>>>>>> f54e83a (buildcommit)
 
 });
 
